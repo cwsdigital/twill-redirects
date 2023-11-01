@@ -4,7 +4,10 @@
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Total Downloads](https://img.shields.io/packagist/dt/cwsdigital/twill-redirects.svg?style=flat-square)](https://packagist.org/packages/cwsdigital/twill-redirects)
 
+![Add new redirect module preview](https://github.com/cwsdigital/twill-redirects/blob/master/Twill-Redirects-Preview.jpg)
+
 ## What it does
+This package provides a simple way to allow users to manage any Redirects for their Twill Sites.
 
 ## Requirements
 This package requires Laravel 8 or higher, PHP8 or higher, and Twill 3.0 or higher.
@@ -64,3 +67,16 @@ protected $middleware = [
 ```
 
 ## Events
+
+There are two events triggered in the Redirect Middleware.
+
+1. **RedirectWasFound** event is triggered when a redirect has been found.
+2. **RedirectWasNotFound** event is triggered when no redirect was found.
+
+## Changelog
+
+Please see [CHANGELOG](CHANGELOG.md) for details.
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
