@@ -4,7 +4,7 @@
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Total Downloads](https://img.shields.io/packagist/dt/cwsdigital/twill-redirects.svg?style=flat-square)](https://packagist.org/packages/cwsdigital/twill-redirects)
 
-![Add new redirect module preview](https://github.com/cwsdigital/twill-redirects/blob/master/Twill-Redirects-Preview.jpg)
+![Add new redirect module preview](https://github.com/cwsdigital/twill-redirects/blob/main/Twill-Redirects-Preview.jpg)
 
 ## What it does
 This package provides a simple way to allow users to manage any Redirects for their Twill Sites.
