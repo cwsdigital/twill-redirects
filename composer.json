@@ -1,0 +1,39 @@
+{
+  "name": "cwsdigital/twill-redirects",
+  "description": "Add an simple redirect capsule to your Twill projects.",
+  "keywords": [
+    "twill",
+    "cwsdigital",
+    "twill-redirects"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paul Dwight",
+      "homepage": "https://cwsdigital.com",
+      "email": "paul@cwsdigital.com",
+      "role": "Developer"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "CwsDigital\\TwillRedirects\\TwillRedirectsServiceProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "CwsDigital\\TwillRedirects\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "area17/twill": "^3.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "laravel/pint": "^1.5"
+  }
+}
