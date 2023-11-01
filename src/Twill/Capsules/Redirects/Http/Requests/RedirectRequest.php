@@ -8,11 +8,17 @@ class RedirectRequest extends Request
 {
     public function rulesForCreate()
     {
-        return [];
+        return [
+            'from' => 'required',
+            'to' => 'required',
+        ];
     }
 
     public function rulesForUpdate()
     {
-        return [];
+        return [
+            'from' => 'required',
+            'to' => 'required',
+        ];
     }
 }
